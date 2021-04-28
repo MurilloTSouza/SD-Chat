@@ -1,0 +1,27 @@
+.Messages {
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    text-align: left;
+    align-self: flex-start;
+    margin: 12px;
+}
+
+.message.right {
+    text-align: right;
+    align-self: flex-end;
+}
+
+.message-content {
+    padding: 8px 12px;
+    border-radius: 18px;
+    max-width: 564px;
+    background-color: white;
+}
+
+.right .message-content {
+    background-color: #3f51b5;
+    color: white;
+}
